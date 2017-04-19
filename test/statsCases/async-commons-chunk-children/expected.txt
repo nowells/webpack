@@ -1,0 +1,15 @@
+Hash: bda9aeeffa9f1b857cff
+Time: Xms
+    Asset       Size  Chunks             Chunk Names
+shared.js  104 bytes       0  [emitted]  shared
+     b.js  125 bytes       1  [emitted]  b
+     a.js  131 bytes       2  [emitted]  a
+   app.js    6.29 kB       3  [emitted]  app
+chunk    {0} shared.js (shared) 27 bytes {1} {2} {3} [rendered]
+    [0] (webpack)/test/statsCases/async-commons-chunk-children/shared.js 27 bytes {0} [built]
+chunk    {1} b.js (b) 21 bytes {3} [rendered]
+    [2] (webpack)/test/statsCases/async-commons-chunk-children/b.js 21 bytes {1} [built]
+chunk    {2} a.js (a) 21 bytes {3} [rendered]
+    [1] (webpack)/test/statsCases/async-commons-chunk-children/a.js 21 bytes {2} [built]
+chunk    {3} app.js (app) 123 bytes [entry] [rendered]
+    [3] (webpack)/test/statsCases/async-commons-chunk-children/index.js 123 bytes {3} [built]
